@@ -91,7 +91,7 @@
 		(repeat 100)
 		(incry 50)
 	)
-	(tbtext "Date: 25.05.2024"
+	(tbtext "Date: 25.05.2024\n"
 		(name "")
 		(pos 87 6.9)
 	)
@@ -130,9 +130,9 @@
 		(start 110 12.5)
 		(end 2 12.5)
 	)
-	(tbtext "TDS-1\n"
+	(tbtext "TDS - 1\n"
 		(name "")
-		(pos 68.36 25.9402)
+		(pos 68.36 25.94)
 		(font
 			(size 5.08 5.08) bold italic)
 	)
@@ -162,9 +162,9 @@
 		(font
 			(size 2.54 2.54) bold)
 	)
-	(tbtext "Guitar distortion pedal"
+	(tbtext "Guitar distortion pedal based on the TL072\n"
 		(name "")
-		(pos 77.249 15.2222)
+		(pos 95.029 15.2222)
 		(font
 			(size 2.54 2.54)
 		)
