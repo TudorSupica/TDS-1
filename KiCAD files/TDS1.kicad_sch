@@ -1168,16 +1168,22 @@
 		(uuid "404d618a-9197-4a49-83c0-22630fa423ab")
 	)
 	(junction
+		(at 156.21 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ce82e2d-03e8-4c0b-b0bf-659c979086b4")
+	)
+	(junction
+		(at 161.29 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74688a86-c02c-44e8-a6e8-aab9f8c10474")
+	)
+	(junction
 		(at 109.22 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0f4ce10-7b25-4714-b704-00775041a318")
-	)
-	(junction
-		(at 161.29 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7705424-cd53-43e3-938e-4482bd9ab160")
 	)
 	(junction
 		(at 137.16 111.76)
@@ -1200,6 +1206,16 @@
 			(type default)
 		)
 		(uuid "000f5227-cd35-4336-8e7a-dd7418597310")
+	)
+	(wire
+		(pts
+			(xy 154.94 111.76) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007b11ce-afdb-4264-8f34-8cd7a27e3b72")
 	)
 	(wire
 		(pts
@@ -1240,6 +1256,16 @@
 			(type default)
 		)
 		(uuid "0c51a71a-daa8-493f-8b4d-cf049cf52840")
+	)
+	(wire
+		(pts
+			(xy 151.13 116.84) (xy 156.21 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32cc287a-1ebe-4755-bba9-183485961645")
 	)
 	(wire
 		(pts
@@ -1293,16 +1319,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 115.57) (xy 151.13 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e39609f-42b5-429c-92e0-cea7eb5ddab9")
-	)
-	(wire
-		(pts
 			(xy 137.16 111.76) (xy 147.32 111.76)
 		)
 		(stroke
@@ -1313,7 +1329,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 118.11) (xy 161.29 102.87)
+			(xy 161.29 118.11) (xy 161.29 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1363,6 +1379,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 111.76) (xy 161.29 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b4c702-035a-43b4-9a4f-38308c97ecdc")
+	)
+	(wire
+		(pts
 			(xy 109.22 100.33) (xy 114.3 100.33)
 		)
 		(stroke
@@ -1393,6 +1419,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 111.76) (xy 161.29 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eddc2bf-8f7d-4336-bd27-f4726c0287e5")
+	)
+	(wire
+		(pts
 			(xy 127 127) (xy 123.19 127)
 		)
 		(stroke
@@ -1403,13 +1439,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 118.11) (xy 161.29 118.11)
+			(xy 151.13 116.84) (xy 151.13 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a367465c-318b-4949-a296-85f2c0a06b7a")
+		(uuid "994d4790-3399-49e6-bb5b-39a7ed0fd22f")
 	)
 	(wire
 		(pts
@@ -1480,6 +1516,16 @@
 			(type default)
 		)
 		(uuid "db1603ab-e7fe-4acd-927c-6a2d29f66509")
+	)
+	(wire
+		(pts
+			(xy 156.21 116.84) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd016cde-00b7-4864-8cf4-1ff92e94f2b1")
 	)
 	(wire
 		(pts
@@ -2046,7 +2092,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 151.13 109.474 90)
 			(effects
 				(font
@@ -2117,8 +2163,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 102.616 117.348 90)
+		(property "Value" "10kΩ"
+			(at 102.616 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2232,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µF"
 			(at 130.556 118.11 90)
 			(effects
 				(font
@@ -2255,7 +2301,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µF"
 			(at 112.776 117.856 90)
 			(effects
 				(font
@@ -2324,8 +2370,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 171.196 117.348 90)
+		(property "Value" "10kΩ"
+			(at 171.196 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,10 +2495,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3390f815-c136-4756-8725-55ed588d1bab")
 		(property "Reference" "R6"
-			(at 163.83 120.6499 0)
+			(at 161.29 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,8 +2505,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 163.83 123.1899 0)
+		(property "Value" "1kΩ"
+			(at 163.576 123.952 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,8 +2814,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 102.616 85.598 90)
+		(property "Value" "10kΩ"
+			(at 102.616 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +2883,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µF"
 			(at 140.716 125.73 90)
 			(effects
 				(font
@@ -2906,7 +2951,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µF"
 			(at 165.1 106.426 90)
 			(effects
 				(font
@@ -3391,8 +3436,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 179.324 113.03 90)
+		(property "Value" "100kΩ"
+			(at 179.07 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,72 +3485,6 @@
 			(project "TDS1"
 				(path "/5a6efc3c-4e23-4ab1-9ce7-0fd5ce7a22d7"
 					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a47164f8-8a8f-452b-a671-3d25ac62c5f1")
-		(property "Reference" "#PWR05"
-			(at 161.29 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.972 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d988a346-48f8-468e-8d19-19dbea645ae0")
-		)
-		(instances
-			(project "TDS1"
-				(path "/5a6efc3c-4e23-4ab1-9ce7-0fd5ce7a22d7"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3595,8 +3574,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 139.446 116.586 90)
+		(property "Value" "1kΩ"
+			(at 139.446 117.602 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,7 +3840,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 118.11 102.616 90)
 			(effects
 				(font
